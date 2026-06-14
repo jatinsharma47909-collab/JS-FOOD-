@@ -1,0 +1,24 @@
+*{ margin: 0
+    ;}
+    nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: black;
+        padding: 15px 50px;
+    }
+    ul{
+        display: flex;
+        gap: 10px;
+        list-style: none;
+    }
+    nav a{
+        color: white;
+        text-decoration: none;
+    }
+    nav h2{
+        color: white;
+    }
+    nav a :hover{
+        color:orange;
+    }
