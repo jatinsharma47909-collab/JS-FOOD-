@@ -19,6 +19,15 @@
     nav h2{
         color: white;
     }
-    nav a :hover{
-        color:orange;
+    
+    nav li:last-child a{
+        background-color: red;
+        padding: 7px 12px;
+        border-radius: 5px;
+    }
+    nav a:hover {
+        color: red;
+    }
+    nav a li:last-child a :hover{
+        color: black;
     }
